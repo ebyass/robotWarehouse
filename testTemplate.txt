@@ -1,0 +1,7 @@
+import { checkDepths } from "./checkDepths";
+
+describe('checkDepths', () => {
+  it('returns something', () => {
+    expect(checkDepths(testDepths)).toEqual(7);
+  });
+});

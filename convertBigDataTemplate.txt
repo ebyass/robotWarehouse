@@ -1,0 +1,8 @@
+import { readFileSync } from "fs";
+
+function readInputs(file: string): string[] {
+  const fileContent = readFileSync(file).toString();
+  const lines = fileContent.split(/\r?\n/);
+
+  return lines;
+}
